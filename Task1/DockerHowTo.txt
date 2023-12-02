@@ -1,0 +1,12 @@
+###### RUN DOCKER ######
+To run the docker:
+docker run --network="bridge" -it --rm -p 8888:8888 61366f3b5821888c9612dad22bba570691f34d209a6d6be7e5eb44163c216b43 
+
+or alternatively 
+docker run --network="bridge" -it --rm -p 8888:8888 pai:pai-demos
+
+
+##### BUILD #######
+To build the docker:
+
+docker build --pull pai-demos
