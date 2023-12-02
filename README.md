@@ -20,6 +20,7 @@ The training features (`train_x.csv`) are the (relative) 2D coordinates of locat
 
 **Addressing Asymmetric Cost**: To address the issue of asymmetric costs, specifically the 50x penalty for underpredictions in potential residential zones, we introduced a heuristic. This heuristic focuses on enhancing predictions in residential areas by adding 1.1 times the Gaussian Process standard deviation to the predicted values.
 
+
 ## Task2: Bayesian Neural Networks (SWAG)
 
 The task is to implement SWA-Gaussian to classify land-use patterns from satellite images, and detect ambiguous/hard images using your model's predicted confidence. For each test sample, we either output a class, or "don't know". 
@@ -87,6 +88,10 @@ $$
 We implemented the [Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor](https://arxiv.org/abs/1801.01290).
 
 
+
+
+
+https://github.com/everythingisalreadytaken/ProbabilisticAI-FS2023/assets/124626809/b8f84462-4d22-4484-9dcd-c578d5b53757
 
 
 
